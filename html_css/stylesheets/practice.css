@@ -1,0 +1,172 @@
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Bookman, sans-serif;
+  position: relative;
+  margin: 0;
+  min-height: 100%;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h3, h4, h5 {
+  margin-bottom: 30px;
+}
+
+.btn {
+  border-radius: 5px;
+  margin: 0;
+  display: inline-block;
+}
+
+.btn-alt {
+  border: 1px solid #dfe2e5;
+  padding: 10px 30px;
+}
+
+.btn-alt:hover {
+  border: 1px solid gray;
+}
+
+.btn-alt:active {
+  border: 1px solid lightblue;
+}
+
+.list a {
+  text-decoration: none;
+  color: black;
+
+}
+
+.hero {
+  text-align: center;
+  padding: 30px;
+}
+
+.hero a {
+  text-decoration: none;
+  color: lightgray;
+}
+
+.hero a:hover {
+  color: gray;
+}
+
+.hero a:active {
+  color: lightblue;
+}
+
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  max-width: 960px;
+}
+
+.container-70 {
+  margin: 0 auto;
+  max-width: 70%;
+  background-color: yellow;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  color: gray;
+}
+
+#box {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  line-height: 150%;
+  text-align: justify;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.list {
+  line-height: 150%;
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  display: table;
+  width: 960px;
+  table-layout: fixed;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.list ul {
+  padding: 0;
+}
+
+.list li {
+  font-size: 30px;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.list img {
+  max-width: 25%;
+  padding-right: 5px;
+  padding-left: 15%;
+  float: left;
+  vertical-align: middle;
+}
+
+.list p {
+  color: #FAB534;
+}
+
+.list span {
+  max-width: 33%;
+  display: table-cell;
+}
+
+.list span:hover {
+  background-color: #FAFAFA;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+table {
+  margin: 10px auto;
+  width: 50%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+tr {
+  border: 1px solid black;
+}
+
+td {
+  height: 50px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+td.borderless {
+  border: none;
+}
+
+th {
+  background-color: lightblue;
+  border-color: white;
+  height: 30px;
+}
