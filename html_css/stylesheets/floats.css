@@ -1,0 +1,48 @@
+body {
+  box-sizing: border-box;
+}
+
+code {
+  background: #2db34a;
+  border-radius: 6px;
+  color: #fff;
+  display: block;
+  padding: 24px 15px;
+  text-align: center;
+  font-size: 20px;
+}
+
+header,
+section,
+aside,
+footer {
+  margin: 0 1.5% 24px 1.5%;
+}
+
+footer {
+  margin-bottom: 0;
+}
+
+section {
+  float: left;
+  width: 30.33%;
+}
+
+footer {
+  margin-bottom: 0;
+}
+
+.container:before,
+.container:after {
+  content: "";
+  display: block;
+}
+
+.container:after {
+  clear: both;
+}
+
+.container {
+  clear: both;
+  *zoom: 1;
+}

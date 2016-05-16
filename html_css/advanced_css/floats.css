@@ -1,0 +1,38 @@
+.box-set {
+  background: #eaeaed;
+}
+.box {
+  background: #2db34a;
+  float: left;
+  margin: 1.858736059%;
+  width: 29.615861214%;
+}
+
+.box-set:before,
+.box-set:after {
+  content: "";
+  display: block;
+}
+
+.box-set:after {
+  clear: both;
+}
+
+.box-set {
+  *zoom: 1;
+}
+
+.square-set {
+  background: #eaeaed;
+}
+
+.square {
+  background: #2db34a;
+  height: 80px;
+  width: 80px;
+  margin: 0;
+  border-radius: 5px;
+  line-height: 80px;
+  text-align: center;
+  color: #fff;
+}
